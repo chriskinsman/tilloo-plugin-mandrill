@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 4.2.2
+
+
+build:
+  ci:
+    - npm install gulp -g
+    - npm install
+    - gulp lint
+
+  cache: true
+
