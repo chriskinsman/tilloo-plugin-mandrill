@@ -1,8 +1,6 @@
 var request = require('request');
 
 function Mandrill(pluginConfig, generalConfig) {
-    console.dir(pluginConfig);
-    console.dir(generalConfig);
     this.pluginConfig = pluginConfig;
     this.generalConfig = generalConfig;
 }
