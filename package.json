@@ -1,0 +1,20 @@
+{
+  "name": "tilloo-plugin-mandrill",
+  "version": "1.0.0",
+  "description": "Tilloo plugin to send notifications via MailChimp/Mandrill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tilloo",
+    "plugin",
+    "mailchimp",
+    "mandrill"
+  ],
+  "author": "Chris Kinsman",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
