@@ -54,5 +54,5 @@ The author is [Chris Kinsman](https://github.com/chriskinsman)
 [npm-url]: https://npmjs.org/package/tilloo-plugin-mandrill
 [downloads-image]: https://img.shields.io/npm/dm/tilloo-plugin-mandrill.svg?style=flat
 [downloads-url]: https://npmjs.org/package/tilloo-plugin-mandrill
-[shippable-image]: https://img.shields.io/shippable/56c277ad1895ca4474741676.svg?style=flat
-[shippable-url]: https://app.shippable.com/projects/56c277ad1895ca4474741676
+[shippable-image]: https://api.shippable.com/projects/58e7c1820738ca070057bbb3/badge?branch=master
+[shippable-url]: https://app.shippable.com/github/chriskinsman/tilloo-plugin-mandrill
