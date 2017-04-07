@@ -5,7 +5,7 @@ function Mandrill(pluginConfig, generalConfig) {
     console.dir(generalConfig);
     this.pluginConfig = pluginConfig;
     this.generalConfig = generalConfig;
-};
+}
 
 Mandrill.prototype.notify = function notify(message, lastErrorTime, failureCount, job) {
     if (!message.manualStop) {
