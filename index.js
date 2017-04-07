@@ -1,4 +1,5 @@
 var request = require('request');
+var debug = require('debug')('tilloo-plugin-mandrill');
 
 function Mandrill(pluginConfig, generalConfig) {
     this.pluginConfig = pluginConfig;
@@ -50,7 +51,11 @@ Mandrill.prototype.notify = function notify(message, lastErrorTime, failureCount
             json: true
         }, function (error, response, body) {
             if (error) {
-                console.log("Mandrill error: " + error);
+                debug('Error sending message err: %O', error);
+                console.error("Mandrill error: " + error);
+            }
+            else {
+                debug('Sent message jobId: %s, statusDescription: %s', jobId, statusDescription);
             }
         });
     }
